@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta 
+	name="viewport" 
+	content="width=device-width, 
+	initial-scale =1.0,
+	minimum-scale =1.0, 
+	maximum-scale =1.0,
+	user-scalable =no">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<title>支付页面</title>
+		<script>
+	function jump(){window.location.href="indexpaysuc.html"}
+	</script>
+</head>
+<body>
+    <div id="login">
+        <img src="images/4/wechatpay.png" class="wechatpay">
+        <div class="remind" >
+        	<p>请使用微信 “扫一扫” </p>
+        	<p>扫描下方二维码进行支付</p>
+        </div>
+        <img src="images/4/code.png" class="code" onclick="jump()">
+        <p class="remind-foot">请在2小时内扫描二维码，否则过期。</p>
+    </div>
+</body>
+</html>

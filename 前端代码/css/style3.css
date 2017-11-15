@@ -1,0 +1,19 @@
+.wechatpay{
+	margin-bottom: 7%;
+}
+#login{
+	text-align: center;
+}
+.remind{
+	font-size: 0.12rem;
+	margin-bottom: 3%;
+}
+.code{
+	margin-top: 2%;
+}
+.remind-foot{
+	font-size: 0.12rem;
+	color: #ccc;
+	clear: both;
+	margin-top: 15%;
+}

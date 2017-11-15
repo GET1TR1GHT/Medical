@@ -1,0 +1,144 @@
+html {
+    font-size: 625%;
+ 
+}
+body{
+	background-color: #ffffff;
+}
+.public-header{
+	height: 0.44rem;
+	width: 100%;
+	background-color: #FFFFFF;
+	border: 0;
+	border-bottom: 0.01rem solid #ccc; 
+	box-shadow: 0.01rem 0 0.1rem #ccc;
+}
+.logo{
+	float: left;
+	margin:0.11rem 0.14rem;
+	width: 0.65rem;
+	height: 0.22rem;
+}
+.double{
+	float: right;
+	margin:0.17rem 0.14rem;
+}
+.contain{
+	font-size: 0.12rem;
+	color: grey;
+	padding:0.3rem 0.3rem;
+
+}
+
+#logo-button{
+    width: 1.585rem;
+    height: 0.35rem;
+    background-color: #FF3885;
+    border: 0px;
+    color: #FFFFFF;
+    padding:0 0.17rem;
+}
+#logo-button-left{
+
+    float: left;
+text-align:left;}
+#logo-button-right{
+    float: right;
+}
+.button-back{
+	width: 100%;
+	min-height: 25%;
+	text-align: center;
+}
+.public-foot{
+	background: url(../images/2/backg-pic.jpg) repeat rgba(255,255,255,0.1);
+	background-size: 100% 100%;
+	font-size: 0.12rem;
+	width: 100%;
+	min-height: 25%;
+	position:relative;
+	padding: 6% 0;
+	text-align: center;
+	background-position-y:bottom;
+	position: absolute;
+	z-index: -2;
+}
+.foot-contact{
+	width: 0.82rem;
+	height: 0.44rem;
+	margin: 0 auto;
+}
+.foot-contact-top{
+	color: #ffffff;
+	font-size: 0.20rem;
+}
+.foot-contact-bottom{
+	color: #ccc;
+}
+.wenzi{
+	background-color: #ffffff;
+	color: #65C3FB;
+	width: 67%;
+	margin: 0 auto;
+	padding: 0.05rem;
+	border-radius: 0.03rem;
+	margin-top: 3%;
+	font-size: 0.5em;
+}
+.icon{
+	margin-top: 4%;
+}
+.icon ul{
+	width: 85%;
+	height: auto;
+	margin: 0 auto;
+}
+.icon ul li{
+	float: left;
+	width: 20%;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 0.05rem solid transparent;
+    border-right: 0.05rem solid transparent;
+    border-top: 0.1rem solid #ffffff;
+    margin: 0 auto;
+}
+.b{
+	background:#000;
+	width:100%;
+	min-height:100%;
+	color:#F00; 
+	opacity: 0.5;
+position: absolute;
+top: 0;z-index: -1;
+}
+.memo{
+	min-height: 3.0rem;
+}
+.memo h1{
+	float: left;
+	margin-right: 0.1rem;
+	font-size: 0.35rem;
+	color: #14406A;
+}
+.montho{
+	padding-top: 0.08rem;
+	color: #14406A;
+}
+.memo-pic{
+	clear: both;
+	color: #959595;
+}
+.memo-pic li{
+	width: 1.63rem;
+	height: 1.85rem;
+	padding: 0.1rem;
+	box-shadow: 0 0 0.2rem #F0F5F5;
+	margin-bottom: 0.25rem;
+}
+.memo-pic li img{
+	width: 1.6rem;
+	height: 1.415rem;
+}

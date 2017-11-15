@@ -1,0 +1,82 @@
+html {
+    font-size: 625%;
+ 
+}
+body{
+       background-image:linear-gradient(45deg, #A5CEE6 1.0rem, #E9B6CA 2.0rem);
+    background-image:-webkit-linear-gradient(45deg, #A5CEE6 3.0rem, #E9B6CA 6.0rem);
+}
+
+#login{
+    width: 3.52rem;
+    height: 3.80rem;
+    background-color: #ffffff;
+    margin:1.37rem auto;
+position: relative;}
+.logo{
+    margin: 0.55rem 0.97rem;
+    text-align: center;
+}
+#tel{
+    margin-left: 0.76rem;
+    width: 2.10rem;
+    height: 0.23rem;
+}
+#tel img{
+    float: left;
+}
+#tel input{
+    float: left;
+    margin-left: 0.08rem;
+    border: 0px;
+    border-bottom: 0.004rem solid #ccc;
+    padding-bottom: 0.07rem;
+}
+#pasw{
+    margin-left: 0.76rem;
+    width: 2.10rem;
+    height: 0.23rem;
+    margin-top: 0.31rem;
+}
+#pasw img{
+    float: left;
+    width: 0.19rem;
+    height: 0.14rem;
+}
+#pasw input{
+        float: left;
+    margin-left: 0.06rem;
+    border: 0px;
+    border-bottom: 0.004rem solid #ccc;
+    background: url(../images/getcode.jpg) no-repeat right;
+    padding-bottom: 0.07rem;
+}
+#logo-button{
+    width: 1.585rem;
+    height: 0.35rem;
+    background-color: #FF3885;
+    float: left;
+    border: 0px;
+    color: #FFFFFF;
+    margin: 10% 27%;
+    
+    padding:0 0.17rem;
+    /*background: url(../images/button.jpg) no-repeat right;*/
+}
+#logo-button-left{
+
+    float: left;
+text-align:left;}
+#logo-button-right{
+    float: right;
+}
+.bigadd{
+    position: absolute;
+    top: -3%;
+    left: 75%;
+}
+.smalladd{
+    position: absolute;
+    left: 3%;
+    top:35%;
+}

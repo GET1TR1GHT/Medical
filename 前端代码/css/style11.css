@@ -1,0 +1,35 @@
+.project{
+	min-height:3.765rem; 
+	padding: 0.2rem 0;
+	border-top:0.01rem solid #ccc;
+	 border-bottom:0.01rem solid #ccc;
+	 margin-top: 0.2rem;
+	 width: 100%;
+}
+.projecto{
+	background-color: #fff;
+	width: 92%;
+	padding:5% 4%;
+	min-height: 1.55rem;
+	box-shadow: 0 0 0.5rem #ccc;
+	margin-bottom: 0.2rem;
+}
+.projecto h2{
+	font-size: 0.15rem;
+	height: 0.34rem;
+	line-height: 0.34rem;
+	border-bottom:0.01rem solid #ccc;
+	color: #FF3885;
+}
+.projecto h3{
+	font-weight: 500;
+	margin-top: 0.1rem;
+}
+.projecto span{
+	color: #FF3885;
+	margin-bottom: 0.1rem;
+	display: block;
+}
+.projecto p{
+	line-height: 0.2rem;
+}

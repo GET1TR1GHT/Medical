@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta 
+	name="viewport" 
+	content="width=device-width, 
+	initial-scale =1.0,
+	minimum-scale =1.0, 
+	maximum-scale =1.0,
+	user-scalable =no">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/style10.css">
+	<title>填写</title>
+	<script>
+		window. onload= function(){
+			for(var i = 2018;i < 2080 ; i++)
+			{
+				document.getElementById("year").innerHTML += '<option value="'+i+'">'+i+'</option>';
+			}
+
+			for (var j = 2; j <13; j++) {
+				document.getElementById('month').innerHTML +='<option value="'+j+'">'+j+'月</option>';
+			}
+			 var a = document.getElementById("test");
+			 var b = document.getElementById("top8");
+			 var c = document.getElementById("top9");
+
+			 var e = document.getElementById("teut");
+			 var f = document.getElementById("top7");
+			 var g = document.getElementById("top6");
+	    	a.onblur = function(){
+		        var d = a.value;
+		        if(d==""){
+		            c. style. display="block";
+		            b. style. display="none";
+		        }else{
+		        	c. style. display="none";
+		            b. style. display="block";
+		        }
+    		}
+    		e.onblur = function(){
+		        var h = e.value;
+		        if(h!=NaN){
+		            g. style. display="none";
+		            f. style. display="block";
+		        }else{
+		            f. style. display="block";
+		            g. style. display="none";
+		        }
+    		}
+		}
+ 	function jump(){window.location.href="add.html"}
+	</script>
+</head>
+<body>
+	<div class="public-header">
+		<img src="images/2/logo.jpg" class="logo">
+		<img src="images/2/doubleliner.jpg" class="double">
+	</div>
+	<div class="contain">
+		<div class="step">
+			<ul>
+				<li><p class="stepnumber">1</p> <p>我的购物车</p></li>
+				<li><p class="stepnumber" id="active">2</p> <p>填写信息</p></li>
+				<li><p class="stepnumber">3</p> <p>支付订单</p></li>
+			</ul>
+		</div>
+		
+		<div class="bill">
+			<form class="bill-form">
+				<p>姓名</p>
+				<input type="text" placeholder="王大力" id="test">
+				<span class="enen" id="top8" style="display:none;"/></span>
+				<span class="xixi" id="top9" style="display:none;"/></span>
+				<p>性别</p>
+				<select name="select"> 
+					<option value="Male">男</option> 
+					<option value="Female">女</option> 
+				</select>
+
+				<p>年龄</p>
+				<input type="text"  id="teut">
+				<span class="enen" id="top7" style="display:none;"/></span>
+				<span class="xixi" id="top6" style="display:none;"/></span>
+
+				<p>地址</p>
+				<textarea></textarea>
+
+				<p>期望就诊日期</p>
+				<select name="select" id="year"> 
+					<option value="请选择年份">请选择年份</option> 
+					<option value="2017">2017</option> 
+				</select><br>
+				<select name="select" id="month"> 
+					<option value="请选择月份">请选择月份</option> 
+					<option value="1">1月</option> 
+				</select><br>
+				<select name="select" id="date"> 
+					<option value="请选择上中下旬">请选择上中下旬</option> 
+					<option value="上旬">上旬</option> 
+					<option value="中旬">中旬</option> 
+					<option value="下旬">下旬</option> 
+				</select>
+
+				<p>期望就诊日期</p>
+				<select name="select" id="year"> 
+					<option value="请选择年份">请选择年份</option> 
+					<option value="2017">2017</option> 
+				</select><br>
+				<select name="select" id="month"> 
+					<option value="请选择月份">请选择月份</option> 
+					<option value="1">1月</option> 
+				</select><br>
+				<select name="select" id="date"> 
+					<option value="请选择上中下旬">请选择上中下旬</option> 
+					<option value="上旬">上旬</option> 
+					<option value="中旬">中旬</option> 
+					<option value="下旬">下旬</option> 
+				</select>
+				
+				<p>邮箱</p>
+				<input type="text">
+
+				<p>既往病史</p>
+				<select name="select" id="rumor"> 
+					<option value="yes">三年内曾发生过重大疾病：包括心血管、脑等重要器官</option> 
+					<option value="no">未发生过重大疾病</option> 
+				</select>
+
+				<p>备注</p>
+				<textarea></textarea>
+			</form>
+			<div class="button-back">
+				<p class="allprice">总价</p><h2 class="priceo">￥5000</h2>
+				<button type="button" id="logo-button" onclick="jump()"><p id="logo-button-left">立即结算</p><p id="logo-button-right">&gt</p></button>
+			</div>
+		</div>
+</div>
+		<div class="public-foot">
+			<div class="b"></div>
+			<div class="foot-contact"><p class="foot-contact-top">联系我们</p><p class="foot-contact-bottom">CONTACT US</p></div>
+			<div class="wenzi">Lorem ipsum dolor sit amet, consectetur</div>
+			<div class="triangle-down">	</div>
+			<div class="icon">
+				<ul>
+					<li><a href="#"><img src="images/2/wechat.png"></a></li>
+					<li><a href="#"><img src="images/2/QQ.png"></a></li>
+					<li><a href="#"><img src="images/2/addres.png"></a></li>
+					<li><a href="#"><img src="images/2/email.png"></a></li>
+					<li><a href="#"><img src="images/2/tel.png"></a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	</html>

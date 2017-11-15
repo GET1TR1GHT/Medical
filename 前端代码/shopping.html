@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta 
+	name="viewport" 
+	content="width=device-width, 
+	initial-scale =1.0,
+	minimum-scale =1.0, 
+	maximum-scale =1.0,
+	user-scalable =no">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/style5.css">
+	<title>shopping</title>
+	<script type="text/javascript">
+		window.onload =function(){
+			var ool= document. getElementById('top');
+
+			var uol= document.getElementsByClassName("medical-fee");
+			
+
+			
+   			ool. onclick =function (){
+   				for(var j=0; j< uol.length; j++){
+				var oool= uol[j]. getElementsByTagName('input');
+				// if (oool[0]. checked == true) {oool[0]. checked = false;	}
+				// else if (oool[0]. checked == false) {oool[0]. checked = true;	}
+				oool[0]. checked = ool. checked;
+				}
+			}
+				
+		}
+		function go(){window.location.href="filling.html"}
+	</script>
+</head>
+<body>
+	<div class="public-header">
+		<img src="images/2/logo.jpg" class="logo">
+		<img src="images/2/doubleliner.jpg" class="double">
+	</div>
+	<div class="contain">
+		<div class="step">
+			<ul>
+				<li><p class="stepnumber" id="active">1</p> <p>我的购物车</p></li>
+				<li><p class="stepnumber">2</p> <p>填写信息</p></li>
+				<li><p class="stepnumber">3</p> <p>支付订单</p></li>
+			</ul>
+		</div>
+		
+		<div class="bill">
+			<div class="checkall" >
+				<input type="checkbox" value="全选" id="top" class="enen" />全选
+			</div>
+			<div class="checkone">
+				<div class="medical-fee">
+					<input type="checkbox" class="enen" />
+					<img src="images/shop/500313251.png">
+					<div class="medical-introduce"><h2>无痛肠胃道检测</h2>
+						<p>简介：重粒子放疗法是碳  、氖、硅、氩等离子超... </p></div>
+					</div>
+					<div class="price">
+						<p>定金：￥5000</p>
+						<img src="images/shop/Rectangle-3-copy.png">
+					</div>
+				</div>
+			
+
+			<div class="checkone">
+				<div class="medical-fee">
+					<input type="checkbox" class="enen"/>
+					<img src="images/shop/500313251.png">
+					<div class="medical-introduce"><h2>无痛肠胃道检测</h2>
+						<p>简介：重粒子放疗法是碳  、氖、硅、氩等离子超... </p></div>
+					</div>
+					<div class="price">
+						<p>定金：￥5000</p>
+						<img src="images/shop/Rectangle-3-copy.png">
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="button-back">
+			<p class="allprice">总价</p><h2 class="priceo">￥5000</h2>
+				<button type="button" id="logo-button" onclick="go()"><p id="logo-button-left">立即结算</p><p id="logo-button-right">&gt</p></button>
+			</div>
+		</div>
+
+		<div class="public-foot">
+			<div class="b"></div>
+			<div class="foot-contact"><p class="foot-contact-top">联系我们</p><p class="foot-contact-bottom">CONTACT US</p></div>
+			<div class="wenzi">Lorem ipsum dolor sit amet, consectetur</div>
+			<div class="triangle-down">	</div>
+			<div class="icon">
+				<ul>
+					<li><a href="#"><img src="images/2/wechat.png"></a></li>
+					<li><a href="#"><img src="images/2/QQ.png"></a></li>
+					<li><a href="#"><img src="images/2/addres.png"></a></li>
+					<li><a href="#"><img src="images/2/email.png"></a></li>
+					<li><a href="#"><img src="images/2/tel.png"></a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	</html>

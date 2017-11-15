@@ -1,0 +1,183 @@
+html {
+    font-size: 625%;
+ 
+}
+body{
+	background-color: #FFF;
+}
+.public-header{
+	height: 0.44rem;
+	width: 100%;
+	background-color: #FFFFFF;
+	border: 0;
+	border-bottom: 0.01rem solid #ccc; 
+	box-shadow: 0.01rem 0 0.1rem #ccc;
+}
+.logo{
+	float: left;
+	margin:0.11rem 0.14rem;
+	width: 0.65rem;
+	height: 0.22rem;
+}
+.double{
+	float: right;
+	margin:0.17rem 0.14rem;
+}
+.contain{
+	font-size: 0.12rem;
+	color: grey;
+}
+
+
+.public-foot{
+	background: url(../images/2/backg-pic.jpg) repeat rgba(255,255,255,0.1);
+	background-size: 100% 100%;
+	font-size: 0.12rem;
+	width: 100%;
+	min-height: 25%;
+	position:relative;
+	padding: 6% 0;
+	text-align: center;
+	background-position-y:bottom;
+	position: absolute;
+	z-index: -2;
+}
+.foot-contact{
+	width: 0.82rem;
+	height: 0.44rem;
+	margin: 0 auto;
+}
+.foot-contact-top{
+	color: #ffffff;
+	font-size: 0.20rem;
+}
+.foot-contact-bottom{
+	color: #ccc;
+}
+.wenzi{
+	background-color: #ffffff;
+	color: #65C3FB;
+	width: 67%;
+	margin: 0 auto;
+	padding: 0.05rem;
+	border-radius: 0.03rem;
+	margin-top: 3%;
+	font-size: 0.5em;
+}
+.icon{
+	margin-top: 4%;
+}
+.icon ul{
+	width: 85%;
+	height: auto;
+	margin: 0 auto;
+}
+.icon ul li{
+	float: left;
+	width: 20%;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 0.05rem solid transparent;
+    border-right: 0.05rem solid transparent;
+    border-top: 0.1rem solid #ffffff;
+    margin: 0 auto;
+}
+.b{
+	background:#000;
+	width:100%;
+	min-height:100%;
+	color:#F00; 
+	opacity: 0.5;
+	position: absolute;
+	top: 0;z-index: -1;
+}
+
+.contain-top{
+	height: 1.6rem;
+	width: 100%;
+	padding: 0.2rem 0;
+	padding-bottom: 0;
+	margin-bottom: 0.4rem;
+}
+.contain-top-ul{
+	height: 1.6rem;
+	width: 3.15rem;
+	margin:0 auto;
+}
+.contain-top-ul li{
+	font-size: 0.12rem;
+	text-align: center;
+	width: 0.65rem;
+	height: 0.57rem;
+	border: 0.01rem solid #ccc;
+	float: left;
+	border-radius: 0.5rem;
+	margin: 0 0.053rem;
+	margin-bottom: 0.2rem;
+	color: black;
+	padding: 0.04rem 0;
+}
+.contain-top-ul li:hover{
+	border: 0.01rem solid #EB5CC4;
+}
+.contain-top-ul li img{
+width: 0.32rem;
+height: 0.32rem;
+}
+.contain-middle{
+	min-height: 5.68rem;
+	padding: 0 0.1rem;
+}
+.contain-middle-contain{
+	height: 1.0355rem;
+	border: 0.001rem solid #E6E1E1;
+	background-color: #FAFAFA;
+	box-shadow: 0 0 0.2rem #E4E1E1,0 0 0.3rem #E4E1E1 inset;
+	padding: 0.1rem 0.1rem;
+	margin-bottom: 0.2rem;
+	min-width: 3.33rem;
+}
+.contain-middle-contain img{
+	width: 1.0rem;
+	height: 1.0rem;
+	float: left;
+}
+.contain-middle-contain-right{
+	float: right;
+	width: 65%;
+}
+.contain-middle-contain-right h2{
+	font-size: 0.13rem;
+	float: left;
+	font-weight: 500;
+}
+.contain-middle-contain-right span{
+	float: left;
+	font-weight: 600;
+	margin-left: 0.05rem;
+	width: 0.15rem;
+	height: 0.15rem;
+	border-radius: 0.05rem;
+	padding: 0.02rem 0.025rem;
+	background-color: #FF3885;
+	color: #fff;
+}
+.contain-middle-contain-right h3{
+	float: right;
+	color: #FF3885;
+	font-weight: 500;
+	font-size: 0.13rem;
+}
+.contain-middle-contain-right p{
+	clear: both;
+	padding: 0.04rem 0;
+	line-height: 0.18rem;
+}
+.contain-middle-contain-right button{
+	background-color: rgba(0,0,0,0);
+	color: #FF3885; 
+	border: 0.01rem solid #FF3885;
+	border-radius: 0.05rem;
+}
